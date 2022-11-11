@@ -1,6 +1,7 @@
 # hrđa
 
-![](https://github.com/njelich/hrdja/raw/main/logo.jpeg)
+![314488047_839176604166190_3030652765659893689_n](https://user-images.githubusercontent.com/12912633/201327222-0e7a3751-47fd-4532-acaa-0eb5dd24f1bf.jpg)
+
 
 Aren't you _umorni_ from writing Rust programs in English? Do you like saying
 "racija" a lot? Would you like to try something different, in an exotic and
