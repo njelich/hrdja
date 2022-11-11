@@ -1,5 +1,5 @@
-hrđa::hrđa! {
-    vanjski kištra hrđa;
+hrdja::hrdja! {
+    vanjski kištra hrdja;
 
     koristi std::collections::KartaSažetaka kao Rječnik;
 
@@ -14,13 +14,13 @@ hrđa::hrđa! {
 
     ispuna KljučVrijednost za GPKrk {
         fn napiši(&suština, ključ: ZnakovniNiz, valeur: ZnakovniNiz) {
-            dopusti rjecnik = opasno {
+            neka rjecnik = opasno {
                 RJECNIK.dohvati_ili_ubaci_uz(Podrazumijevano::podrazumijevano)
             };
             rjecnik.ubaci(ključ, valeur);
         }
         fn dohvati(&suština, ključ: ZnakovniNiz) -> Rezultat<Neobavezno<&ZnakovniNiz>, ZnakovniNiz> {
-            ako dopusti Neki(rjecnik) = opasno { RJECNIK.ko_upuć() } {
+            ako neka Neki(rjecnik) = opasno { RJECNIK.ko_upuć() } {
                 URedu(rjecnik.dohvati(&ključ))
             } inače {
                 Kiks("dohvati rjecnik".pretvori())
@@ -48,7 +48,7 @@ hrđa::hrđa! {
     }
 
     fn glavni() {
-        dopusti izmjenjiv x = 31;
+        neka izmjenjiv x = 31;
 
         spari x {
             42 => {
@@ -58,7 +58,7 @@ hrđa::hrđa! {
         }
 
         za i u 0..10 {
-            dopusti val = petlja {
+            neka val = petlja {
                 prekini i;
             };
 
@@ -66,7 +66,7 @@ hrđa::hrđa! {
                 x += 1;
             }
 
-            x = ako dopusti Neki(resultat) = može_biti(i) {
+            x = ako neka Neki(resultat) = može_biti(i) {
                 resultat.odmotaj()
             } inače {
                 12

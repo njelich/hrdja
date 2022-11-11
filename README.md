@@ -28,7 +28,7 @@ Here's an example of what can be achieved with Hrđa:
 ### trait and impl (aka svojstvo et ispuna)
 
 ```rust
-hrđa::hrđa! {
+hrdja::hrdja! {
     koristi std::collections::KartaSažetaka kao Rječnik;
 
     svojstvo KljučVrijednost {
@@ -42,13 +42,13 @@ hrđa::hrđa! {
 
     ispuna KljučVrijednost za GPKrk {
         fn napiši(&suština, ključ: ZnakovniNiz, valeur: ZnakovniNiz) {
-            dopusti rjecnik = opasno {
+            neka rjecnik = opasno {
                 RJECNIK.dohvati_ili_ubaci_uz(Podrazumijevano::podrazumijevano)
             };
             rjecnik.ubaci(ključ, valeur);
         }
         fn dohvati(&suština, ključ: ZnakovniNiz) -> Rezultat<Neobavezno<&ZnakovniNiz>, ZnakovniNiz> {
-            ako dopusti Neki(rjecnik) = opasno { RJECNIK.ko_upuć() } {
+            ako neka Neki(rjecnik) = opasno { RJECNIK.ko_upuć() } {
                 URedu(rjecnik.dohvati(&ključ))
             } inače {
                 Kiks("dohvati rjecnik".pretvori())
