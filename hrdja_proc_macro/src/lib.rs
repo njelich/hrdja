@@ -58,7 +58,7 @@ fn replace_ident(ident: Ident) -> Option<TokenTree> {
         "ako" => "if",
         "inače" => "else",
         "suština" => "self",
-        "dopusti" => "let",
+        "neka" => "let",
         "nepokretno" => "static",
         "građa" => "struct",
         "očekuj" => "expect",
@@ -116,7 +116,7 @@ fn replace_stream(ts: TokenStream, out: &mut Vec<TokenTree>) {
 }
 
 #[proc_macro]
-pub fn hrđa(item: TokenStream) -> TokenStream {
+pub fn hrdja(item: TokenStream) -> TokenStream {
     let mut returned = Vec::new();
     replace_stream(item, &mut returned);
     let mut out = TokenStream::new();
