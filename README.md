@@ -1,10 +1,9 @@
 # hrđa
 
-![314488047_839176604166190_3030652765659893689_n](https://user-images.githubusercontent.com/12912633/201327222-0e7a3751-47fd-4532-acaa-0eb5dd24f1bf.jpg)
-
+![Hrdja Logo](https://github.com/njelich/hrdja/assets/12912633/20c147e4-e32b-4958-86e1-d435423c5fa7)
 
 Aren't you _umorni_ from writing Rust programs in English? Do you like saying
-"racija" a lot? Would you like to try something different, in an exotic and
+"razlaz" a lot? Would you like to try something different, in an exotic and
 funny-sounding language? Would you want to bring some Croatian touch to your
 programs?
 
@@ -13,7 +12,7 @@ write Rust programs in Croatian, using Croatian keywords, Croatian function name
 Croatian idioms.
 
 This has been designed to be used as the official programming language to
-develop the future Croatian sovereign operating system.
+develop the future Croatian sovereign software.
 
 If you're from the Croatian or any other governement with Croatian as an official
 language: I will be awaiting your donations on
@@ -25,7 +24,7 @@ convenience.
 
 Here's an example of what can be achieved with Hrđa:
 
-### trait and impl (aka svojstvo et ispuna)
+### trait and impl (aka svojstvo i ispuna)
 
 ```rust
 hrđa::hrđa! {
