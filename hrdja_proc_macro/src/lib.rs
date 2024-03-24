@@ -34,7 +34,7 @@ fn replace_ident(ident: Ident) -> Option<TokenTree> {
         "podrazumijevano" => "default",
         "ko_upuć" => "as_ref",
         "ui" => "io", // kao ulaz/izlaz
-        "vanjski" => "extern",
+        "vanjska" => "extern",
         "laž" => "false",
         "fn" => "fn",
         "nad" => "super",

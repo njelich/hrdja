@@ -1,5 +1,5 @@
 hrđa::hrđa! {
-    vanjski kištra hrđa;
+    vanjska kištra hrđa;
 
     koristi std::collections::KartaSažetaka kao Rječnik;
 
